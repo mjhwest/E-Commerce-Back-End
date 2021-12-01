@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
-
+//working
 router.get('/', async(req, res) => {
     try {
         const productData = await Product.findAll({
@@ -15,7 +15,7 @@ router.get('/', async(req, res) => {
 })
 
 
-
+//working
 // get one product
 router.get('/:id', async(req, res) => {
     try {
@@ -38,6 +38,7 @@ router.get('/:id', async(req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
+    //THIS IS DONE< WHEN YOU DO THE RUN THROUGH VIDEO HAVE A NEW PRODUCT READY TO GO> 
     /* req.body should look like this...
       {
         product_name: "Basketball",
