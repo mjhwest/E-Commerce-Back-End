@@ -53,8 +53,7 @@ router.post('/', (req, res) => {
             if (req.body.tagIds.length) {
                 const productTagIdArr = req.body.tagIds.map((tag_id) => {
                     return {
-                        product_id: product.id,
-                        tag_id,
+                        category_name
                     };
                 });
                 return ProductTag.bulkCreate(productTagIdArr);
@@ -111,7 +110,7 @@ router.put('/:id', (req, res) => {
         });
 });
 
-//working, can delete the newly created product 7 
+//working, can delete the newly created product 8 
 router.delete('/:id', (req, res) => {
     // delete one product by its `id` value
     Product.destroy({
