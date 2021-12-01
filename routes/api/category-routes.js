@@ -40,25 +40,7 @@ router.post('/', async(req, res) => {
     } catch (err) {
         res.status(400).json(err);
     }
-    //     .then((category) => {
-    //         if (req.body.category_name) {
-    //             const catName = req.body.category_name.map((category_name) => {
-    //                 return {
-    //                     category_name
-    //                 };
-    //             });
-    //             return ProductTag.bulkCreate(catName);
-    //         }
-    //         res.status(200).json(category);
-    //     }).then((cats) => res.stauts(200).json(cats))
-    //     .catch((err) => {
-    //         console.log(err);
-    //         res.status(400).json(err)
-    //     })
-    // create a new category
-    // {
-    //   'category_name': "Belts"
-    // }
+
 });
 
 
