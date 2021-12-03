@@ -1,12 +1,20 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
-## Your Task
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+![DEMO](assets/e-com.gif)
+
+## Description
 
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+Our task is to build the back end for an e-commerce site by modifying starter code. We will configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+This is an important activity as it allowed us to implement our sequelize skills, practice and show our understanding of routes (get, post, put, delete), demonstrate our understanding of one to one and one to many relationships and continue our understanding of async functions. 
+
+Overall, it was a great activity and i know have a greater understanding of how different routes work. 
+
+To see a full demonstration of the activity (showing the connectoin files, the schema file, seeding the database and starting the server from the command as well as the routes all working in localhost via insomnia) [CLICK HERE FROM DEMO](https://watch.screencastify.com/v/ehELJiLw2KjN3cLKwbLK) 
 
 ## User Story
 
