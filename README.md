@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-![DEMO](assets/e-com.gif)
+![DEMO](Assets/e-com.gif)
 
 ## Description
 
@@ -41,15 +41,15 @@ Once the seeds have been executed create the code needed in `server.js` to sync 
 
 Once all the dependencies have been installed, in the command line the user can create databases using the schema.sql file and check the database as been created. 
 
-![schema](assets/schema.png)
+![schema](Assets/schema.png)
 
 The user can then exit mysql by typing 'quit'. The next important step is to seed the database with data. This is done by tpying npm run seed. 
 
-![seed](assets/seed.png)
+![seed](Assets/seed.png)
 
 The final step before moving to insomnia is to activate the server by inputing 'node server.js' Once it displays 'App Listening on port XXXX (in this instance 3001) you know the localhost is ready to run. 
 
-![server](assets/server.png)
+![server](Assets/server.png)
 
 The user is now ready to use insomnia to test all the routes. 
 
@@ -60,13 +60,11 @@ They can update products, categories and tags and lastly, they can delete produc
 
 For example you can create a new cateogry called socks, this category will have the id number of 6. 
 
-![new](assets/new.png)
+![new](Assets/new.png)
 
 The user can then view the new cateogry with all other cateogires by running the GET All Categories route, the user can search the new category individually (using its id), the user can also update the category name or delete the category. 
 
 To see a full demonstation  [click here](https://watch.screencastify.com/v/ehELJiLw2KjN3cLKwbLK) 
-
-
 
 
 
