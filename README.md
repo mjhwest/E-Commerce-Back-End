@@ -17,7 +17,7 @@ Overall, it was a great activity and i know have a greater understanding of how 
 To see a full demonstration of the activity (showing the connectoin files, the schema file, seeding the database and starting the server from the command as well as the routes all working in localhost via insomnia) [CLICK HERE FROM DEMO](https://watch.screencastify.com/v/ehELJiLw2KjN3cLKwbLK) 
 
 ## Table of Contents 
-- [Getting Started](#gettingstarted)
+- [Getting Started](#getting)
 - [Usage](#usage)
 - [Features](#features)
 - [Contribute](#contribute)
